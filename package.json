@@ -2,10 +2,12 @@
   "name": "actinterviewsolutions",
   "version": "1.0.0",
   "description": "Solutions to interview questions",
-  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha test.js --reporter list"
   },
   "author": "Petter Bergman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "10.2.0"
+  }
 }
