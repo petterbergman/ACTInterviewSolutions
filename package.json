@@ -1,0 +1,11 @@
+{
+  "name": "actinterviewsolutions",
+  "version": "1.0.0",
+  "description": "Solutions to interview questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Petter Bergman",
+  "license": "ISC"
+}
